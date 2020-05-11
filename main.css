@@ -164,7 +164,7 @@ li {
 }
 
 .bar{
-    background: linear-gradient(to right, #ffffff, #4053bb);
+    background: linear-gradient(to right, #ffffff, #181818);
     width: 100%;
     height: 4px;
     border-radius: 3rem;
