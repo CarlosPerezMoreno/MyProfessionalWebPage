@@ -14,7 +14,7 @@ html {
 body {
     width: 100%px;
     height: 100%px;
-    background: url(images/3623463.jpg) no-repeat center fixed;
+    background: url(images/3623463-3.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
@@ -54,7 +54,7 @@ img{
 
 .section-heading h1{
     font-size: 3.5rem;
-    color: rgba(255, 255, 255, .3);
+    color: rgba(255, 255, 255, 0.733);
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -68,7 +68,7 @@ img{
     bottom: -.5rem;
     left: 50%;
     transform: translateX(-50%);
-    background-color: rgba(255, 255, 255, 0.75);
+    background-color: rgba(255, 255, 255, 0.788);
 }
 
 .section-heading h1::before{
@@ -108,7 +108,7 @@ header {
     position: fixed;
     top: -100vh;
     z-index: 50;
-    background-color: #181818; 
+    background-color: #000000; 
     border-bottom-right-radius: 100%;
     border-bottom-left-radius: 100%;
     transition: all 650ms cubic-bezier(1,0,0,1);
@@ -135,7 +135,7 @@ li {
 
 .nav-link:hover,
 .nav-link:focus{
-    background: linear-gradient(to top, #06003a, #f7f7f7);
+    background: linear-gradient(to top, #0000c9, #ffffff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -164,7 +164,7 @@ li {
 }
 
 .bar{
-    background: linear-gradient(to right, #ffffff, #181818);
+    background: linear-gradient(to right, #ffffff, #0000c9);
     width: 100%;
     height: 4px;
     border-radius: 3rem;
@@ -193,14 +193,14 @@ li {
     transform: rotate(-450deg) translateX(-.8rem);
 }
 
-/*.my-logo{
+.my-logo{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400%;
+    width: 60%;
     z-index: 1;
-}*/
+}
 
 /*End header*/
 
@@ -249,15 +249,15 @@ li {
 }
 
 .fa-facebook-square:hover{
-    color: #4267b2
+    color: #0000c9
 }
 
 .fa-instagram:hover{
-    color: #4267b2
+    color: #0000c9
 }
 
 .fa-github-square:hover{
-    color: #4267b2
+    color: #0000c9
 }
 
 
@@ -290,15 +290,15 @@ li {
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838;
-    background-color: #06003a;
+    border: 3px solid #ffffff;
+    background-color: #000000;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
 }
 
 .icon-container i{
-    color: blue;
+    color: rgb(0, 0, 201);
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -336,7 +336,7 @@ li {
     font-size: 1.5rem;
     text-transform: uppercase;
     font-weight: 300;
-    opacity: 0.3;
+    opacity: 0.6;
 }
 
 .portfolio-description .cta{
@@ -344,12 +344,12 @@ li {
     margin-top: 2.5rem;
     font-size: 1.5rem;
     text-transform: uppercase;
-    color: coral;
+    color: rgb(251, 255, 0);
     transition: color 650ms;
 }
 
 .portfolio-description .cta:hover{
-    color: slateblue;
+    color: rgb(0, 0, 201);
 }
 /*End services*/
 
@@ -417,7 +417,7 @@ li {
 
 /*Start contact*/
 .contact{
-    background-color: #202020;
+    background-color: #202020af;
 }
 
 form{
@@ -436,13 +436,13 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #fd57bf;
+    outline-color: rgba(255, 255, 255, .3);
 }
 
 input[type="submit"]{
     width: initial;
-    background-color: #ffe838;
-    color: #eee;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 1rem 2rem;
     border-radius: .8rem;
     cursor: pointer;
@@ -450,8 +450,8 @@ input[type="submit"]{
 }
 
 input[type="submit"]:hover{
-    color: darkturquoise;
-    background-color: #6820aa;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, .3);
 }
 /*End contact*/
 
@@ -460,7 +460,7 @@ input[type="submit"]:hover{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #06003a;
+    background-color: #00007c;
     padding: 2rem 0;
     position: relative;
 }
@@ -469,7 +469,7 @@ input[type="submit"]:hover{
     position: absolute;
     width: 5rem;
     height: 5rem;
-    background-color: #4267b2;
+    background-color: rgba(255, 255, 255, .3);
     top: -2.5rem;
     right: 5rem;
     border-radius: 100%;
@@ -479,7 +479,7 @@ input[type="submit"]:hover{
 }
 
 .up i{
-    color: #46b242;
+    color: #ffffff;
     font-size: 2rem;
     margin: auto;
 }
