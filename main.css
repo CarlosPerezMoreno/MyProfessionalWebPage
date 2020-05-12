@@ -198,7 +198,7 @@ li {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 60%;
+    width: 55%;
     z-index: 1;
 }
 
@@ -210,6 +210,8 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-right: 16rem;
+    text-align: justify;
 }
 
 .about-heading{
@@ -231,8 +233,11 @@ li {
 
 .profile-img{
     flex: 1;
-    margin-right: 5rem;
-    margin-left: 10rem;
+    margin-right: 15rem;
+    margin-left: 16rem;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
 }
 
 .about-details{
@@ -248,7 +253,7 @@ li {
     transition: color 650ms;
 }
 
-.fa-facebook-square:hover{
+.fa-youtube:hover{
     color: #0000c9
 }
 
@@ -351,7 +356,24 @@ li {
 .portfolio-description .cta:hover{
     color: rgb(0, 0, 201);
 }
-/*End services*/
+/*End portfolio*/
+
+
+/* Start others */
+
+.music-videos{
+    display: inline-block;
+    margin-top: 8rem;
+}
+
+.video-item{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin: 1rem;
+    border: rgba(255, 255, 255, 0.185) 2px solid;
+}
 
 /*Start timeline*/
 
@@ -460,7 +482,7 @@ input[type="submit"]:hover{
 .copyright{
     width: 100%;
     text-align: center;
-    background-color: #00007c;
+    background-color: rgba(7, 7, 8, 0.863);
     padding: 2rem 0;
     position: relative;
 }
@@ -507,7 +529,7 @@ input[type="submit"]:hover{
 
 @media screen and (max-width: 768px) {
     body {
-        background: url(images/3623463.jpg) no-repeat center fixed;
+        background: url(images/3623463-3.jpg) no-repeat center fixed;
         background-size: cover;
     }
 
@@ -531,6 +553,11 @@ input[type="submit"]:hover{
         font-size: 4.5rem;
     }
 
+    .profile-img{
+        width: 80%;
+        height: auto;
+    }
+    
     .about-heading h1{
         font-size: 8rem;
     }
