@@ -233,11 +233,9 @@ li {
 
 .profile-img{
     flex: 1;
-    margin-right: 15rem;
+    margin-right: 12rem;
     margin-left: 16rem;
-    width: 100%;
-    max-width: 500px;
-    height: auto;
+    max-width: 400px;
 }
 
 .about-details{
@@ -356,6 +354,15 @@ li {
 .portfolio-description .cta:hover{
     color: rgb(0, 0, 201);
 }
+
+.portfolio-video{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+    margin: 1rem;
+    border: rgba(255, 255, 255, 0.185) 2px solid;
+}
 /*End portfolio*/
 
 
@@ -374,6 +381,8 @@ li {
     margin: 1rem;
     border: rgba(255, 255, 255, 0.185) 2px solid;
 }
+
+/* End others */
 
 /*Start timeline*/
 
@@ -545,17 +554,18 @@ input[type="submit"]:hover{
         flex-direction: column;
     }
 
+    .profile-img{
+        flex: 1;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
     li{
         margin: 2rem 0;
     }
 
     .nav-link{
         font-size: 4.5rem;
-    }
-
-    .profile-img{
-        width: 80%;
-        height: auto;
     }
     
     .about-heading h1{
@@ -581,6 +591,40 @@ input[type="submit"]:hover{
 
     .icon-container i{
         font-size: 4rem;
+    }
+
+    .portfolio-img{
+        display: inline-block;
+        align-items: center;
+        border: none;
+    }
+
+    .music-videos{
+        display: block;
+        margin-top: 8rem;
+    }
+    
+    .video-item{
+        display: inline-block;
+        align-items: center;
+        border: none;
+    }
+
+    .video-item-in{
+        display: center;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+        border: rgba(255, 255, 255, 0.185) 2px solid;
+        max-width: 30rem;
+        max-height: 20rem;
+    }
+
+    .port-video-item-in{
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        border: rgba(255, 255, 255, 0.185) 2px solid;
+        max-width: 20rem;
+        max-height: 12rem;
     }
 
     .timeline ul{
