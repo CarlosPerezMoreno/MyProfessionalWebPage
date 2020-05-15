@@ -537,6 +537,11 @@ input[type="submit"]:hover{
         background-size: cover;
     }
 
+    section{
+        padding: 2rem;
+        overflow-x: hidden;
+    }
+
     .landing-text h1{
         font-size: 15rem;
     }
