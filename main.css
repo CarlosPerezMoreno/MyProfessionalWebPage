@@ -288,8 +288,8 @@ li {
 }
 
 .icon-container{
-    width: 10rem;
-    height: 10rem;
+    width: 12rem;
+    height: 12rem;
     border: 3px solid #ffffff;
     background-color: #000000;
     margin-bottom: 2rem;
@@ -299,7 +299,7 @@ li {
 
 .icon-container i{
     color: rgb(0, 0, 201);
-    font-size: 5rem;
+    font-size: 6rem;
     margin: auto;
     transform: rotate(-45deg);
 }
