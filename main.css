@@ -306,7 +306,7 @@ li {
 /*End services*/
 
 
-/*Start portfolio*/
+/*Start portfolio
 .portfolio-item{
     display: flex;
     align-items: center;
@@ -316,7 +316,7 @@ li {
 
 .portfolio-item:last-child{
     margin-bottom: 0;
-}
+}*/
 
 .portfolio-img {
     flex:1;
@@ -701,6 +701,16 @@ input[type="submit"]:hover{
         width: 100%;
         height: 100%;
       }    
+
+      .grid-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+      .article-img {
+        flex-direction: column;
+      }
 
 }
 /*End media queries*/
