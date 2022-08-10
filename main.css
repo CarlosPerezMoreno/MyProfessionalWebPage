@@ -352,6 +352,29 @@ li {
 .portfolio-description .cta:hover{
     color: rgb(0, 0, 201);
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px 50px;
+}
+
+article {
+    position: relative;
+  }
+  
+  .article-img {
+    height: 315px;
+    width: 560px;
+    object-fit: cover;
+  }
+
+.grid-item {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
 /*End portfolio*/
 
 
