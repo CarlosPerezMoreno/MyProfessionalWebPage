@@ -805,6 +805,12 @@ input[type="submit"]:hover{
         flex-direction: column;
       }
 
+      .myImg {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
 }
 /*End media queries*/
 
