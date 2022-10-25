@@ -318,6 +318,15 @@ li {
     margin-bottom: 0;
 }*/
 
+.reelStyles {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 400px;
+    padding-bottom: 500px;
+}
+
 .portfolio-img {
     flex:1;
     border: rgba(255, 255, 255, 0.123) 2px solid;
