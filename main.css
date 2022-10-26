@@ -317,7 +317,7 @@ li {
 .portfolio-item:last-child{
     margin-bottom: 0;
 }*/
-
+/*
 .reelStyles {
     height: 200px;
     display: flex;
@@ -325,7 +325,22 @@ li {
     justify-content: center;
     padding-top: 400px;
     padding-bottom: 500px;
-}
+}*/
+
+.reelStyles {
+	height: 0;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	position: relative;
+	}
+.reelStyles iframe, .video-responsive object, .video-responsive embed {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	}
 
 .portfolio-img {
     flex:1;
@@ -819,7 +834,7 @@ input[type="submit"]:hover{
         height: 100%;
         flex-direction: column;
     }
-
+    /*
     .reelStyles {
         height: 0;
         overflow: hidden;
@@ -833,7 +848,7 @@ input[type="submit"]:hover{
         position: absolute;
         top: 0;
         width: 100%;
-    }
+    }*/
 
 }
 /*End media queries*/
