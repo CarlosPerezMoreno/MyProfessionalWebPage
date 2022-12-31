@@ -25,19 +25,10 @@
                 </li>
                 <li>
                     <a href="#about" class="nav-link"> About </a>
-                </li>  <!--
-                <li>
-                    <a href="#services" class="nav-link"> Services </a>
-                </li>    -->
+                </li>
                 <li>
                     <a href="#portfolio" class="nav-link"> Portfolio </a>
                 </li>    
-                
-                <!--<a href="#experience" class="nav-link"> Experience </a> -->
-               <!--
-                <li>
-                    <a href="#others" class="nav-link"> Other</a>  
-                </li>    -->
                 <li>
                     <a href="#contact" class="nav-link"> Contact </a>
                 </li>
@@ -52,7 +43,7 @@
 
     </header>
 
-        <!-- About me section -->
+    <!-- About me section -->
 
     <section class="about" id="about">
         <div class="container">
@@ -67,7 +58,7 @@
                 <p> Hello, I'm Carlos. <span style="color: #2b2bff; font-size: 3rem">I'm artist and technician.</span> I do <span style="color: #2b2bff; font-size: 3rem">Motion Graphics, Software Development </span> and <span style="color: #2b2bff; font-size: 3rem">Music</span>. I specialize in creating stunning <span style="color: #2b2bff; font-size: 3rem">visuals</span> and engaging <span style="color: #2b2bff; font-size: 3rem">audio</span> experiences for a variety of projects. With my skills and expertise, I can bring your ideas to <span style="color: #2b2bff; font-size: 3rem">life</span> and help you tell your <span style="color: #2b2bff; font-size: 3rem">story </span>in a unique and captivating way. Let's work together and make <span style="color: #2b2bff; font-size: 3rem">magic</span> happen! Please have a seat, scroll down and check out my career and activities:
                 </p>
 
-                      <!-- Social networks-->
+                <!-- Social networks-->
 
                 <div class="social-media">
                     <ul class="nav-list">
@@ -92,37 +83,9 @@
         </div>
     </section>
 
+    <!-- Portfolio -->
 
-            <!-- Services 
-
-    <section class="services" id="services">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Services</h1>
-                <h6>What can I do for you?</h6>
-            </div>
-            <div class="my-skills">
-                <div class="skill" data-aos="fade-in" data-aos-delay="100">
-                    <div class="icon-container">
-                        <i class="fas fa-video"></i>
-                    </div>
-                    <h1> <span style="color: #2b2bff; font-size: 4rem">Motion Graphics </span> </h1>
-                    <p> <span style="font-size: 3rem">Adobe Photoshop, After Effects, Premiere & Illustrator. </span></p>
-                </div>
-                <div class="skill" data-aos="fade-in" data-aos-delay="200">
-                    <div class="icon-container">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h1> <span style="color: #2b2bff; font-size: 4rem">Development </span></h1>
-                    <p> <span style="font-size: 3rem">Salesforce CRM. Software development with Java & JavaScript. </span></p>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
-            <!-- Portfolio -->
-
-            <section id="portfolio">
+    <section id="portfolio">
                 <div class="section-heading">
                     <h1>Portfolio</h1>
                 </div>
@@ -185,13 +148,6 @@
                                 </iframe>
                             </div>
                         </div>
-                        <!--
-                        <div class="portfolio-item">
-                            <div class="video-item-in">
-                                <iframe class="article-img" src="https://www.youtube.com/embed/LqoXE6hA85Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                </iframe>
-                            </div>
-                        </div> -->
                         <div class="portfolio-item">
                             <div class="video-item-in">
                                 <iframe class="article-img" src="https://www.youtube.com/embed/HCLmC755m6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
@@ -240,15 +196,11 @@
                                 </iframe>
                             </div>
                         </div>
-
-                        <!--<img id='pic01' class="myImg" src="images/AVATR-REALISTA-SI-2-2.JPG">-->
+                        
+                        <!-- Pictures section -->
                         <img id='pic02' class="myImg" src="images/PECERA GIF.gif">
                         <img id='pic01' class="myImg" src="images/GAMEBOY PARA PORTFOLIO.png">
-                        <!--<img id='pic04' class="myImg" src="images/8 bit cyberpunk pixel city.jpg">-->
-                        <!--<img id='pic05' class="myImg" src="images/SAKURA BACKG 1080 SCENE (0-00-00-20).png">-->
-                        <!--<img id='pic06' class="myImg" src="images/Cyberpunk city para portfolio.png">-->
 
-                        <!-- The Modal -->
                         <div id="myModal" class="modal">
                         <span class="close">×</span>
                         <img class="modal-content" id="img01">
@@ -258,9 +210,7 @@
                         <script>
                         var arrayImg = ['pic01','pic02', 'pic03', 'pic04', 'pic05', 'pic06', 'pic07'];
                         for (let i = 0; i < 8; i++) {
-                            // Get the image and insert it inside the modal - use its "alt" text as a caption
                             var img = document.getElementById(arrayImg[i]);
-                            // Get the modal
                             var modal = document.getElementById('myModal');
                             var modalImg = document.getElementById("img01");
                             var captionText = document.getElementById("caption");
@@ -272,11 +222,8 @@
                                     captionText.innerHTML = this.alt;
                                 }
                             }
-
-                            // Get the <span> element that closes the modal
                             var span = document.getElementsByClassName("close")[0];
 
-                            // When the user clicks on <span> (x), close the modal
                             span.onclick = function() { 
                                 modal.style.display = "none";
                             }
@@ -285,173 +232,9 @@
                         </script>
                     
                 </div>
-            </section>
+    </section>
 
-            <!-- OLD PORTFOLIO
-
-    <section class="portfolio" id="portfolio">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Portfolio</h1>
-                <h6>Some of my projects.</h6>
-            </div>
-
-                         Video projects 
-
-                         <div class="portfolio-item">
-                            <div class="video-item-in" data-aos="fade-right" data-aos-delay="200">
-                                 <iframe width="560" height="315" src="https://www.youtube.com/embed/qgv1iV9nvQg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                </iframe>
-                            </div>
-                        </div>
-            
-            
-                        <div class="portfolio-item">
-                            <div class="video-item-in has-margin-right" data-aos="fade-right" data-aos-delay="200">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/bxxIrQ44DbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                                </iframe>
-                            </div>
-                        </div>
-
-                 1st project
-
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="100">
-                    <h6>Web Development</h6>
-                    <h1>My Own Portfolio</h1>
-                    <p>This portfolio itself has been developed and designed by me. It is based on HTML5, CSS3 and JavaScript, combined with JQuery.
-                    </p>
-                    <a href="https://github.com/CarlosPerezMoreno/MyProfessionalWebPage" target="_blank" class="cta">View Details</a>
-                </div>
-                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="200">
-                    <img src="images/Autocapture portfolio top.jpg" alt="">
-                </div>
-            </div>
-
-               2nd project
-
-            <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
-                    <img src="images/GifSearcherImg.jpg" alt="">
-                </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
-                    <h6>Web Development</h6>
-                    <h1>Gif Searcher</h1>
-                    <p>Gif searcher, created with ReactJS. Other libraries: Wouter, Intersection-Observer. (In progress)
-                    </p>
-                    <a href="https://github.com/CarlosPerezMoreno/React-App-Gif-Searcher" target="_blank" class="cta">View Details</a>
-                </div>
-            </div>
-
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="100">
-                    <h6>Web Development</h6>
-                    <h1>Pokemon Database App</h1>
-                    <p>This app lets the user search for pokemons and its features. Created with ReactJS. (In progress)
-                    </p>
-                    <a href="https://github.com/JuanCalMun/Pokedex" target="_blank" class="cta">View Details</a>
-                </div>
-                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="200">
-                    <img src="images/PokedexReact.jpg" alt="">
-                </div>
-            </div>
-            
-            <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
-                    <img src="images/nodejs-auth-app.jpg" alt="">
-                </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
-                    <h6>Web Development</h6>
-                    <h1> Passport Authentication App</h1>
-                    <p>Authentication App with login, register and access control. Created with NodeJS, Express, MongoDB, Passport, Mongoose and more.
-                    </p>
-                    <a href="https://github.com/CarlosPerezMoreno/Passport-Authentication-Project" class="cta">View Details</a>
-                </div>
-            </div>
-
-            <div class="portfolio-item">
-                <div class="portfolio-description has-margin-right" data-aos="fade-right" data-aos-delay="100">
-                    <h6>Web Development</h6>
-                    <h1>Videogame Online Shop App</h1>
-                    <p>Webpage development meant to store a videogame online shop. Created with MERN Stack. Other libraries: Mongoose, Morgan, Formidable... (In progress)
-                    </p>
-                    <a href="https://github.com/CarlosPerezMoreno/MERN-App---VideoGame-Store-App-FRONT-" target="_blank" class="cta">View Details (Front)</a>
-                    <br>
-                    <a href="https://github.com/CarlosPerezMoreno/MERN-App---VideoGame-Store-App-BACK-" target="_blank" class="cta">View Details (Back)</a>
-                </div>
-                <div class="portfolio-img" data-aos="fade-left" data-aos-delay="200">
-                    <img src="images/MERNApp.jpg" alt="">
-                </div>
-            </div>
-
-            <div class="portfolio-item">
-                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
-                    <img src="images/COVID TRACKER.jpg" alt="">
-                </div>
-                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="400">
-                    <h6>Web Development</h6>
-                    <h1> Coronavirus Tracker</h1>
-                    <p>Coronavirus charts with daily statistics. Created with ReactJS. Other libraries: Axios, ChartsJS, CountUp...
-                    </p>
-                    <a href="https://github.com/CarlosPerezMoreno/React-COVID19-Tracker" class="cta">View Details</a>
-                </div>
-            </div>
-            
-        </div>
-    </section>-->
-
-
-            <!-- Experience -->
-
-   <!-- <section class="experience" id="experience">
-        <div class="container">
-            <div class="section-heading">
-                <h1>Work Experience</h1>
-                <h6>Past and current jobs</h6>
-            </div>
-            <div class="timeline">
-                <ul>
-                    <li class="date" data-date="2018 - Present">
-                        <h1> GOOGLE </h1>
-                        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id nisi debitis dolor? Atque neque cumque ea eligendi, ut explicabo alias iste rerum minima sint qui quo, maiores, in et tenetur!</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section> -->
-
-         <!-- Other 
-
-    <section class="others" id="others">
-        <div class="container">
-            <div class="section-heading" data-aos="fade-down" data-aos-delay="100">
-                <h1>Other interests and activities</h1>
-                <br>
-                <span style="color: #ffffff; font-size: 3rem">Music</span>
-                <br>
-                <br>
-                <br>
-                <p>Music is one of my passions. I have composed soundtrack for some projects: <a href="https://play.google.com/store/apps/details?id=com.NLHs.JumpHit" target="_blank"><u>JUMP HIT</u></a> videogame by <a href="https://nlhstories.wixsite.com/welcome" target="_blank"><u>NLHStories</u></a> or "Pei" animation shortfilm by Lightbox Academy. Here are some of my pieces:
-                </p>
-
-                1st video 
-                <div class="others-item">
-                    <div class="video-item-in" data-aos="fade-down" data-aos-delay="200">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/2c8-ewy1AM0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        </iframe>
-                    </div>
-                </div>
-                <div class="others-item">
-                    <div class="video-item-in" data-aos="fade-down" data-aos-delay="200">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/bWV1v5P-ZzM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
-        <!-- Contact -->
+    <!-- Contact -->
 
     <section class="contact" id="contact">
         <div class="container">
@@ -480,7 +263,7 @@
         </div>
     </section>
 
-        <!-- Footer -->
+    <!-- Footer -->
 
     <footer class="copyright">
         <div class="up" id="up">
